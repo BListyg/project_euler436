@@ -1,7 +1,7 @@
 # project_euler436
-Simulation code to Project Euler #436
+Simulation code to Project Euler #436 along with an extension that allows for any two values of S can be used.
 
-The problem: 
+*The problem: 
 
   Julie proposes the following wager to her sister Louise.
   She suggests they play a game of chance to determine who will wash the dishes.
@@ -17,3 +17,7 @@ The problem:
   Louise thinks about it for a second, and objects: "That's not fair".
   What is the probability that the second player wins?
   Give your answer rounded to 10 places behind the decimal point in the form 0.abcdefghij
+  
+*The solution:
+
+  Louise is right that this game isn't fair. The second player will always have a greater probability of winning the game compared to the first player (specific values depend on the number of simulations you run). The part I'm particularly proud of is that this code will allow you to use any two values for the sums the random uniform draws have to hit. The cool thing is that regardless of what values Louise or Julie pick, the second value being higher than the first will always guarentee that the second player wins in the long run.
